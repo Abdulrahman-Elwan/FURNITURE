@@ -17,6 +17,7 @@ body {
 .bottom-nav a {
     font-weight: bold;
     color: #333;
+    transition: all 0.7s ease;
 }
 
 .bottom-nav a:hover {
@@ -72,6 +73,10 @@ header {
     transition: 0.3s;
     box-shadow: none;
     width: 156px;
+    transition: all 0.7s ease;
+}
+.shop-btn:hover {
+    color: #5c8b5f;
 }
 
 @media (max-width: 768px) {
